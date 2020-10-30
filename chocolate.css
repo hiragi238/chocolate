@@ -1,0 +1,635 @@
+p{
+    color:#d5d5d5;
+    font-family: "Note Serif JP",serif,serif;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: justify;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color: #0A0A0A;
+    margin:0;
+    position: relative;
+}
+header{
+    width:100%;
+    text-align:center;
+}
+.header-wrapper{
+    width:100%;
+    margin:0 auto;
+    padding:30px 0;
+    overflow: auto;
+}
+.logo{
+    width:160px;
+    height:40px;
+    float: left;
+    margin-left: 40px;
+}
+
+input{
+    visibility: hidden;
+    width:0;
+    height: 0;
+}
+
+.navi{
+    float: right;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+.menu ,.sns {
+    height:40px;
+    display: inline-block;
+    padding-left: 0;
+    vertical-align: middle;
+    margin:0;
+}
+.menu{
+    padding-right: 15px;
+    border-right: #a38d79 solid 1px;
+    margin-right: 15px;
+    width:auto;
+}
+.menu li,.sns li{
+    display:inline-block;
+    height:40px;
+    vertical-align: middle;
+    display: box;
+    box-align: center;   
+}
+.menu li{
+    margin:0 8px;
+}
+.sns li{
+    background-color: #a38d79;
+    width:40px;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+
+.menu a,.sns a,.menu i,.sns i{
+    line-height: 40px;
+    text-decoration: none;
+}
+.menu a{
+    font-family: "Note Serif JP", serif, serif;;
+    font-size: 18px;
+    color:#a38d79;
+    font-weight: 700;
+}
+.sns i{
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+main{
+    width:100%;
+
+}
+.topimgsec{
+    width: calc(100% - 70px);
+    margin:0 auto;
+    text-align: center;
+}
+.topimg{
+    width: 100%;
+}
+.topsales{
+    width:90%;
+    max-width: 780px;
+    margin:0 auto;
+    text-align: center;
+}
+.top h1{
+    color:#d5d5d5;
+    font-family: "Note Serif JP",serif,serif;
+    font-size: 28px;
+    line-height: 48px;
+    padding:20px;
+    border-bottom:solid white 1px; ;
+}
+.top h1 span{
+    color:#a38d79;
+}
+.button{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: inline-block;
+    border-radius: 5px;
+    height:45px;
+    width:100%;
+    vertical-align: middle;
+    background-color: #A38D79;
+    font-family: "Noto Serif JP", serif, serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 45px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    box-shadow: 0 3px 10px #A38D79;
+}
+.section-img{
+    width: 100%;
+}
+.section-img img{
+    width: 100%;
+    max-width: 1080px;
+}
+.section-img.left{
+    text-align: left;
+}
+.section-img.right{
+    text-align: right;
+}
+.shopping .section-img{
+    width: 100%;
+    max-width: 1080px;
+    padding-top: 70%;
+    position: relative;
+}
+.shopping .section-img img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+  }
+
+.section-txt{
+    width: 80%;
+    max-width: 780px;
+    margin: 60px auto 40px auto;
+}
+.contents h1,.contents h2,.contents h3,.contents h4,.contents p{
+    font-family: "Note Serif JP",serif,serif;
+    text-align: left;
+    margin:0;
+}
+.section-txt h1{
+    font-family: "Note Serif JP",serif,serif;
+    color:#464C42;
+    font-size: 18px;
+    position: relative;
+    vertical-align: middle;
+}
+.section-txt h1:after{
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 1px;
+    background-color: #464C42;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.section-txt h2{
+    font-family: "Note Serif JP",serif,serif;
+    color:#a38d79;
+    font-size: 40px;
+}
+.section-txt h3{
+    color:#d5d5d5;
+    font-family: "Note Serif JP",serif,serif;
+    font-size: 28px;
+    line-height: 48px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.section-txt h4{
+    font-family: "Note Serif JP",serif,serif;
+    color:#a38d79;
+    font-size: 20px;
+    line-height: 30px;
+    margin:15px 0;
+}
+.section-txt p{
+    color:#d5d5d5;
+    font-family: "Note Serif JP",serif,serif;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: justify;
+}
+.boxes{
+    width: 90%;
+    display: flex;
+    padding:0;
+    margin:60px auto 60px auto;
+}
+.boxes li{
+    width: 100%;
+    text-align: center;
+}
+.box-img{
+    width:80%;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    margin:0 auto;
+}
+.box-img:before{
+    content:"";
+    display: block;
+    padding-top: 100%;
+    border-radius: 50%;
+}
+.box-img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    object-fit: cover;
+}
+.box-txt{
+    width:80%;
+    margin:30px auto 30px auto;
+}
+.boxes h1{
+    font-family: "Note Serif JP",serif,serif;
+    color:#d5d5d5;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom:10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #a38d79;;
+}
+.boxes h1 span{
+    font-family: "Note Serif JP",serif,serif;
+    color:#a38d79;
+    font-size: 26px;
+    line-height: 30px;
+}
+.boxes p{
+    text-align: justify;
+}
+.plan{
+    text-align: center;
+    margin-top: 50px;
+}
+.plan-wrapper{
+    display: inline-block;
+    width: 85%;;
+}
+.plan img{
+    width: 100%;
+}
+.plan-img{
+    width:100%;
+    position: relative;
+    overflow: hidden;
+    margin:0 auto;
+}
+.plan-img:before{
+    content:"";
+    display: block;
+    padding-top: 100%;
+    border-radius: 50%;
+}
+.plan-img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    object-fit: cover;
+}
+.plan-num{
+    font-family: "Note Serif JP",serif,serif;
+    background-color: #a38d79;
+}
+.plan h1{
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 45px;
+    padding-bottom:20px;
+    color: #a38d79;
+}
+.plan .price{
+    font-family: "Note Serif JP",serif,serif;
+    color: #a38d79;
+    font-size: 23px;
+    margin:20px auto;
+}
+.plan .price span{
+    font-size:18px;
+    text-decoration: line-through;
+}
+.plan .price i{
+    margin:0 3%;
+}
+.plan .button{
+    margin-top: 30px;
+}
+.boxes li{
+    width: 100%;;
+    text-align: center;
+}
+.box-wrapper{
+    width: 80%;
+    display: inline-block;
+}
+.faq .boxes h2{
+    font-family: "Note Serif JP",serif,serif;
+    color: #a38d79;
+    font-size: 20px;
+    margin:20px auto;
+}
+.faq .boxes h2 span{
+    font-size: 28px;
+    margin-left: 5px;
+}
+footer{
+    text-align: center;
+    background-color: #4E4135;
+    color:white;
+}
+.footer-wrapper{
+    width:85%;
+    margin:0 auto;
+}
+footer .logo-wrapper{
+    width: 100%;
+    display: inline-block;
+    margin: 60px 0;
+}
+
+footer .logo{
+    margin:0;
+}
+
+
+footer .navi{
+    width: 100%;
+    margin: 0;
+}
+footer .menu{
+    float: left;
+    border: none;
+}
+footer .menu li{
+    margin-right: 30px;
+    margin-left:0;
+
+}
+footer .menu a{
+    color:white;
+    display: inline-blocks;
+}
+footer .sns{
+    float: right;
+
+}
+footer .sns li{
+    background-color:#4E4135;
+    border:solid white 2px;
+    color:white;
+    margin-left:10px;
+    height:36px;
+    width: 36px;
+}
+footer .sns i{
+    line-height: 36px;
+}
+footer .link{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin:30px 0 ;
+}
+footer .link a{
+    font-family: "Note Serif JP",serif,serif;
+    font-size: 15px;
+    color:white;
+}
+.credit{
+    font-family: "Note Serif JP",serif,serif;
+    padding:50px 0;
+}
+.buy{
+    position: fixed;
+    bottom: 25px;
+    right:35px;
+    height:90px;
+    width:90px;
+    border-radius: 50%;
+    background-color: white;
+    vertical-align: middle;
+    text-align: center;
+    display: table;
+    z-index: 900;
+
+}
+.buy a{
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    text-decoration: none;
+    font-family: remixicon;
+    color:#a38d79;
+    font-size: 15px;
+}
+.buy a span{
+    font-size: 35px;
+    margin-left: -5px;
+}
+.buy i{
+    line-height: 45px;
+}
+
+@media screen and (max-width: 940px){
+    header .logo{
+        margin-left: 20px;
+        position: relative;
+        z-index:800
+    }
+    label{
+        position: relative;
+        z-index: 800;
+    }
+    header{
+        position: fixed;
+        z-index: 800;
+    }
+    .header-wrapper{
+        padding-top: 20px;
+    }
+    main{
+        padding-top: 80px;
+        position: relative;
+        z-index: 0;
+    }
+    .menu-checklabel{
+        float: right;
+        display: inline;
+        margin-right: 20px;
+    }
+
+    .humberger {
+        margin-top: 10px;
+        vertical-align: middle;
+        position: relative;
+        height: 24px;
+        width: 35px;
+        display: inline-block;
+        box-sizing: border-box;
+        color: #a38d79;        
+      }
+    .humberger div {
+        position: absolute;
+        left: 0;
+        height: 1px;
+        width: 35px;
+        background-color: #a38d79;
+        border-radius: 2px;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    .humberger div:nth-of-type(1) {
+        top: 0;
+    }
+    .humberger div:nth-of-type(2) {
+        top: 10px;
+    }
+    .humberger div:nth-of-type(3) {
+        bottom: 0;
+    }
+    
+    header .navi{
+        visibility: hidden;
+        position: absolute;
+        padding-top: 80px;
+        margin-right: 0;
+        width: 100%;
+        height:3000px;
+        border: none;
+        background-color: white;
+        text-align: left;
+        transition: 0.5s;
+        opacity: 0;
+        overflow: hidden;
+        z-index: 480;
+        background-color: #0A0A0A;
+        text-align: center;
+        top:0;
+    }
+    .menu-check:checked + .menu-checklabel +.navi{
+        visibility: visible;
+        border: none;
+        opacity: 1;
+    }
+    header .menu{
+        width: 100%;
+        height: auto;
+        text-align: left;
+    }
+    header .menu li{
+        display: block;
+        width:100%;
+        border-top: #A38D79 solid 0.5px;
+        margin:0;
+        padding:5px 0;
+    }
+    header .menu li:last-of-type{
+        border-bottom: #A38D79 solid 0.5px;
+    }
+    header .menu li a{
+        font-size: 14px;
+        padding-left: 15px;
+    }
+    header .navi .sns{
+        text-align: center;
+        margin-top:20px;
+    }
+    .topimgsec{
+        width: calc(100% - 40px);
+    }
+    .boxes{
+        display: block;
+        width:100%;
+        margin-top: 40px;
+    }
+    .boxes li{
+        width: 100%;;
+    }
+    .box-img{
+        width:250px;
+    }
+    .box-txt h1{
+        padding-bottom:10px;
+        margin-bottom: 10px;
+    }
+    .footer-wrapper{
+        width:100%;
+    }
+    footer .logo-wrapper{
+        margin:20px 0;
+    }
+    footer .logo{
+        margin-left: 20px;
+    }
+    footer .navi{
+        float: none;
+        text-align: left;
+    }
+    footer .menu{
+        width: 100%;;
+        float:none;
+        height: auto;
+        margin:0;
+        padding:0;
+    }
+    footer .menu li{
+        display: block;
+        border-top:solid white 1px; 
+        padding:5px 0;
+        margin:0
+    }
+    footer .menu li:last-child{
+        border-bottom:solid white 1px ;
+    }
+    footer .menu a{
+        font-size: 15px;
+        font-weight: 400;
+        margin-left:20px;
+    }
+    footer .sns{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    footer .link{
+        margin-left: 20px;
+    }
+    .buy{
+        position: fixed;
+        bottom: 20px;
+        right:30px;
+        height:80px;
+        width:80px;
+    
+    }
+    .buy a{
+        vertical-align: middle;
+        display: table-cell;
+        font-size: 12px;
+    }
+    .buy a span{
+        font-size: 30px;
+        margin-left: -3px;
+    }
+    .buy i{
+        line-height: 45px;
+    }
+}
