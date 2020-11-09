@@ -1,6 +1,8 @@
 p{
     color:#d5d5d5;
-    font-family: "Note Serif JP",serif,serif;
+    font-family: "Note Serif JP","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+serif,serif;
     font-size: 14px;
     line-height: 28px;
     text-align: justify;
@@ -77,7 +79,9 @@ input{
     text-decoration: none;
 }
 .menu a{
-    font-family: "Note Serif JP", serif, serif;;
+    font-family: "Note Serif JP", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     font-size: 18px;
     color:#a38d79;
     font-weight: 700;
@@ -107,7 +111,9 @@ main{
 }
 .top h1{
     color:#d5d5d5;
-    font-family: "Note Serif JP",serif,serif;
+    font-family: "Note Serif JP","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     font-size: 28px;
     line-height: 48px;
     padding:20px;
@@ -125,7 +131,9 @@ main{
     width:100%;
     vertical-align: middle;
     background-color: #A38D79;
-    font-family: "Noto Serif JP", serif, serif;
+    font-family: "Noto Serif JP", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     font-weight: 700;
     font-size: 16px;
     line-height: 45px;
@@ -167,12 +175,16 @@ main{
     margin: 60px auto 40px auto;
 }
 .contents h1,.contents h2,.contents h3,.contents h4,.contents p{
-    font-family: "Note Serif JP",serif,serif;
+    font-family: "Note Serif JP","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     text-align: left;
     margin:0;
 }
 .section-txt h1{
-    font-family: "Note Serif JP",serif,serif;
+    font-family: "Note Serif JP","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     color:#464C42;
     font-size: 18px;
     position: relative;
@@ -188,20 +200,26 @@ main{
     margin-left: 10px;
 }
 .section-txt h2{
-    font-family: "Note Serif JP",serif,serif;
+    font-family: "Note Serif JP","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     color:#a38d79;
     font-size: 40px;
 }
 .section-txt h3{
     color:#d5d5d5;
-    font-family: "Note Serif JP",serif,serif;
+    font-family: "Note Serif JP","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     font-size: 28px;
     line-height: 48px;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 .section-txt h4{
-    font-family: "Note Serif JP",serif,serif;
+    font-family: "Note Serif JP","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     color:#a38d79;
     font-size: 20px;
     line-height: 30px;
@@ -209,7 +227,9 @@ main{
 }
 .section-txt p{
     color:#d5d5d5;
-    font-family: "Note Serif JP",serif,serif;
+    font-family: "Note Serif JP","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     font-size: 14px;
     line-height: 28px;
     text-align: justify;
@@ -253,7 +273,9 @@ main{
     margin:30px auto 30px auto;
 }
 .boxes h1{
-    font-family: "Note Serif JP",serif,serif;
+    font-family: "Note Serif JP","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     color:#d5d5d5;
     font-size: 20px;
     line-height: 30px;
@@ -263,7 +285,9 @@ main{
     border-bottom: solid 1px #a38d79;;
 }
 .boxes h1 span{
-    font-family: "Note Serif JP",serif,serif;
+    font-family: "Note Serif JP","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     color:#a38d79;
     font-size: 26px;
     line-height: 30px;
@@ -306,7 +330,9 @@ main{
     object-fit: cover;
 }
 .plan-num{
-    font-family: "Note Serif JP",serif,serif;
+    font-family: "Note Serif JP","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     background-color: #a38d79;
 }
 .plan h1{
@@ -317,7 +343,9 @@ main{
     color: #a38d79;
 }
 .plan .price{
-    font-family: "Note Serif JP",serif,serif;
+    font-family: "Note Serif JP","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     color: #a38d79;
     font-size: 23px;
     margin:20px auto;
@@ -341,7 +369,9 @@ main{
     display: inline-block;
 }
 .faq .boxes h2{
-    font-family: "Note Serif JP",serif,serif;
+    font-family: "Note Serif JP","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     color: #a38d79;
     font-size: 20px;
     margin:20px auto;
@@ -409,12 +439,16 @@ footer .link{
     margin:30px 0 ;
 }
 footer .link a{
-    font-family: "Note Serif JP",serif,serif;
+    font-family: "Note Serif JP","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     font-size: 15px;
     color:white;
 }
 .credit{
-    font-family: "Note Serif JP",serif,serif;
+    font-family: "Note Serif JP","游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho" serif;
+}
+
     padding:50px 0;
 }
 .buy{
